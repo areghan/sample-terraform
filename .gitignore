@@ -1,0 +1,7 @@
+# ignore files with sensitive data
+*.tfvars
+# ignore all files with tfstate
+*.tfstate
+*.tfstate.*
+# ignore providers file since they get generated when the you do terraform init
+.terraform/*
